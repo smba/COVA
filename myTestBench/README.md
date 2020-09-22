@@ -3,7 +3,7 @@
 * Link z3 to `LD_LIBRARY_PATH` (Linux) by adding `export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/path/to/repository/COVA/cova/localLibs/z3-4.5.0-x64-ubuntu/bin/"`
 * Link local libraries `sh /path/to/repository/COVA/cova/localLibs/install_local_libs.sh`
 * Build COVA with Maven `mvn install` (includes test cases) 
-* Configure `COVA/cova/config/Configuraion_APIs.txt` - specify which field or method is the starting point for the taint analysis
+* Configure `COVA/cova/config/Configuration_APIs.txt` - specify which field or method is the starting point for the taint analysis
 * Example for this test suite:
 
 ```
